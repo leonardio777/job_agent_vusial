@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Playwright / LinkedIn Session
+linkedin_profile/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment (if you use one)
+venv/
+.venv/
+
+# Personal data (uncomment if you want to hide your CV)
+*.pdf
