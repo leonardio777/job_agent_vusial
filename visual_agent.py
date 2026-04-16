@@ -76,7 +76,7 @@ load_dotenv(os.path.join(BASE_DIR, ".env"))
 TG_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TG_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-CV_FILENAME = os.getenv("CV_FILENAME", "Leon_Sapranowicz_Product_Manager.pdf")
+CV_FILENAME = os.getenv("CV_FILENAME", "cv.pdf")
 CV_PATH = os.path.join(BASE_DIR, CV_FILENAME)
 
 EXCLUDE_KEYWORDS = ["Junior", "Intern", "Recruiter", "Sales", "Support", "Student"]
